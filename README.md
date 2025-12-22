@@ -33,3 +33,18 @@ gcc cipher.c -o cipher
 ```
 3. Enter the plaintext when prompted.
 4. The program will output the encrypted ciphertext.
+
+---
+
+## Key Requirements
+- Must contain exactly 26 characters
+- Must contain alphabetic characters only
+- Must contain no repeated letters (case-insensitive)
+*Invalid keys will result in an error message.*
+
+---
+
+## Notes
+- Encryption preserves the original case of each letter.
+- Non-letter characters (spaces, punctuation, numbers) are not modified.
+- Memory allocated for the ciphertext is properly freed after use.
